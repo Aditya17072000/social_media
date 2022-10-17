@@ -1,0 +1,63 @@
+.leftbar{
+    flex:2.5;
+    height: 100%;
+    background-color: burlywood;    
+    overflow-y:scroll;
+}
+::-webkit-scrollbar{ 
+    width: 5px;
+}
+::-webkit-scroll-track{
+background-color: azure;
+}
+::-webkit-scroll-thumb{
+    background-color: bisque;
+} 
+.leftbarwrap{
+    padding: 20px;
+    /* direction: ltr; */
+
+}
+.leftbarlist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.leftbarlistitem{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.leftbaricon{
+    margin-right: 15px;
+}
+.leftbarbutton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.leftbarhr{
+    margin: 20px 0;
+}
+.leftbarfriendlist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.leftbarfriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    justify-content: space-evenly;
+}
+.leftbarfriendimg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+}
